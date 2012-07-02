@@ -25,7 +25,7 @@ class GotoSelectionCommand(sublime_plugin.WindowCommand):
         # The characters that you wish to identify as a word separators should be entered inside the quotation marks, one 
         # after another, with nothing in between them.  Special characters must be escaped.  For example:
         #      customWordSeparators = ".;:/&#$"
-        overrideWordSeparators = false
+        overrideWordSeparators = False
         customWordSeparators = " "
 
         # Get any active selections and iterate them
